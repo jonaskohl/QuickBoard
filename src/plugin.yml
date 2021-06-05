@@ -1,8 +1,9 @@
-name: QuickBoard
-author: Tejdik
-version: 4.4.1
+name: QuickBoardX
+author: Jonas Kohl
+version: 4.5.0
 main: me.tade.quickboard.QuickBoard
 softdepend: [PlaceholderAPI, MVdWPlaceholders]
+api-version: 1.16
 commands:
    quickboard:
       aliases: [qb, board, quickb, qbr, gbd]

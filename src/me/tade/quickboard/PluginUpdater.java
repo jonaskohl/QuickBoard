@@ -39,7 +39,7 @@ public class PluginUpdater {
 			return;
 
 		System.out.println(" ");
-		System.out.println("QuickBoard I got new Update! Check it out on spigot page.");
+		System.out.println("QuickBoardX: New update available! Check it out on spigot page.");
 
 		needUpdate = true;
 
@@ -48,7 +48,7 @@ public class PluginUpdater {
 
 	public String getResponse(){
 		try {
-			URL post = new URL("https://raw.githubusercontent.com/tadeas-drab/QuickBoard/master/VERSION");
+			URL post = new URL("https://raw.githubusercontent.com/jonaskohl/QuickBoard/master/VERSION");
 
 			String result = get(post);
 			return result;

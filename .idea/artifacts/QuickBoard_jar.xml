@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="QuickBoard:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QuickBoard_jar</output-path>
+    <root id="root">
+      <element id="archive" name="QuickBoard.jar">
+        <element id="module-output" name="QuickBoard" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Downloads/PlaceholderAPI-2.10.9.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Downloads/json-simple-1.1.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../Downloads/spigot-api-1.16.5-R0.1-20210604.221538-95.jar" />
+    </root>
+  </artifact>
+</component>
